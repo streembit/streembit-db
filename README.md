@@ -1,0 +1,2 @@
+# streembit-db
+Streembit database
