@@ -58,3 +58,9 @@ typings/
 .env
 
 *.code-workspace
+
+db/*/*
+db/*/*/*
+.vscode/launch.json
+temp.js
+package-lock.json

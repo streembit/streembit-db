@@ -1,0 +1,26 @@
+{
+    "name": "streembit-db",
+    "version": "1.0.1",
+    "description": "Streembit database modules",
+    "main": "index.js",
+    "license": "SEE LICENSE IN LICENSE",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/streembit/streembit-db.git"
+    },
+    "author": {
+        "name": "T Z Pardi",
+        "email": "tzpardi@streembit.com"
+    },
+    "dependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^4.0.1",
+        "leveldown": "^1.9.0",
+        "levelup": "^1.3.9",
+        "sqlite3": "^3.1.13",
+        "streembit-util": "git+https://github.com/streembit/streembit-util.git"
+    },
+    "scripts": {
+        "test": "mocha"
+    }
+}
