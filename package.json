@@ -14,8 +14,8 @@
     },
     "dependencies": {
         "chai": "^4.1.2",
-        "leveldown": "^3.0.0",
-        "levelup": "^2.0.1",
+        "leveldown": "^4.0.1",
+        "levelup": "^3.1.1",
         "mocha": "^4.0.1",
         "sqlite3": "^4.0.1",
         "streembit-util": "git+https://github.com/streembit/streembit-util.git"
