@@ -101,6 +101,9 @@ class SqliteDatabase {
                         if (table.columns[i].notnull == true) {
                             sql += " NOT NULL";
                         }
+                        if (table.columns[i].default) {
+                            sql += " DEFAULT " +table.columns[i].default;
+                        }
                         if (i < table.columns.length - 1) {
                             sql += ", ";
                         }
