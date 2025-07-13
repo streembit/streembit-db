@@ -1,7 +1,0 @@
-﻿[
-    {
-        "type": "leveldb",
-        "name": "streembit",
-        "key": "streembitkv"
-    }
-]
