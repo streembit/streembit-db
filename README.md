@@ -7,6 +7,10 @@ This architecture enables scalable, resilient, and queryable decentralized stora
 
 ---
 
+Trade some operational complexity for massive scale improvements while keeping PostgreSQL expertise.
+
+---
+
 ## Features
 
 - Global key lookup via Kademlia DHT
@@ -31,3 +35,4 @@ For high availability, each PostgreSQL instance can be deployed with clustering 
 
 See the architecture diagram for a visual overview:
 
+![Streembit-DB Architecture](./docs/assets/diagram1.png)
